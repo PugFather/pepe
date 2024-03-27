@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Genty";
+    font-style: normal;
+    src:
+      url(/src/assets/fonts/GentyDemo-Regular.otf) format("opentype"),
+      url(/src/assets/fonts/GentyDemo-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Evermore";
+    font-style: normal;
+    src:
+      url(/src/assets/fonts/Evermore.ttf) format("truetype"),
+      url(/src/assets/fonts/Evermore.otf) format("opentype");
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-[1200px];
+  }
+}
+
+@media (max-width: 650px) {
+  @layer components {
+    .container {
+      @apply w-full p-4;
+    }
+  }
+}
+
+.text-shadow {
+  text-shadow:
+    rgba(0, 0, 0, 0.498039) -1px -1px 0px,
+    rgba(0, 0, 0, 0.498039) -1px 1px 0px,
+    rgba(0, 0, 0, 0.498039) 1px 1px 0px,
+    rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
