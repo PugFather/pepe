@@ -56,10 +56,9 @@ const HeroSection = () => {
             </a>
           </div>
         </div>
-        <img
-          src={pepe}
-          className="animate__animated animate__fadeInRight animate__slow max-w-lg md:w-1/2 lg:mt-20"
-        />
+        <div className="animate__animated animate__fadeInRight animate__slow max-w-lg md:w-1/2 lg:mt-20">
+          <img src={pepe} alt="pepe" />
+        </div>
       </div>
     </section>
   );
