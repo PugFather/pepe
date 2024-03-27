@@ -23,8 +23,8 @@ const Contact = () => {
         </div>
 
         <div className="flex items-center gap-7">
-          <img src={telegram01} className="h-20 w-20" />
-          <img src={twitter01} className="h-20 w-20" />
+          <img src={telegram01} className="h-16 w-16" />
+          <img src={twitter01} className="h-16 w-16" />
         </div>
       </div>
     </section>
