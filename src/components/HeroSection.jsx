@@ -27,31 +27,31 @@ const HeroSection = () => {
             <a>
               <img
                 src={twitter}
-                className="h-12 w-12 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
+                className="h-14 w-14 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
               />
             </a>
             <a>
               <img
                 src={telegram}
-                className="h-12 w-12 transition delay-100 ease-in-out hover:scale-110 md:h-20 md:w-20"
+                className="h-14 w-14 transition delay-100 ease-in-out hover:scale-110 md:h-20 md:w-20"
               />
             </a>
             <a>
               <img
                 src={dextools}
-                className="h-12 w-12 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
+                className="h-14 w-14 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
               />
             </a>
             <a>
               <img
                 src={solscan}
-                className="h-12 w-12 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
+                className="h-14 w-14 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
               />
             </a>
             <a>
               <img
                 src={raydium}
-                className="h-12 w-12 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
+                className="h-14 w-14 transition delay-150 ease-in-out hover:scale-110 md:h-20 md:w-20"
               />
             </a>
           </div>
