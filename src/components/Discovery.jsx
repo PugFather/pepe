@@ -1,5 +1,6 @@
 import { useInView } from "react-intersection-observer";
 import rick_and_morty from "../assets/rick_and_morty.wav";
+import rickpepe from "../assets/rickdiscoverpepe.png";
 
 const Discovery = () => {
   const [ref, inView] = useInView({
@@ -7,7 +8,7 @@ const Discovery = () => {
     threshold: 0.1,
   });
   return (
-    <section id="discovery" className="my-20">
+    <section id="discovery" className="py-20">
       <div className="flex flex-col items-center justify-center" ref={ref}>
         <h2 className="text-xl text-black">LISTEN</h2>
         <div className="mt-5 flex w-full items-center rounded-full">
@@ -39,6 +40,7 @@ const Discovery = () => {
           <source src={rick_and_morty} type="audio/wav" />
           Your browser does not support the audio element.
         </audio>
+        <img src={rickpepe} />
       </div>
     </section>
   );

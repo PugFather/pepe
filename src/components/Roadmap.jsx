@@ -9,7 +9,7 @@ const Roadmap = () => {
     threshold: 0.3,
   });
   return (
-    <section id="roadmap" className="mb-20 mt-32" ref={ref}>
+    <section id="roadmap" className="mb-20 pt-32" ref={ref}>
       <h2 className="text-shadow flex flex-col items-center font-evermore text-[36px] md:text-[3.5rem]">
         Roadmap
       </h2>

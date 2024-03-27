@@ -11,7 +11,7 @@ const About = () => {
   });
 
   return (
-    <section id="about" className="relative mb-20 mt-32">
+    <section id="about" className="relative mb-20 pt-32">
       <div
         className="mx-auto flex w-full max-w-[1200px] flex-col items-center justify-between px-4 md:px-0 lg:flex-row"
         ref={ref}

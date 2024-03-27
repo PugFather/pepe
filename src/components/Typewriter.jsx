@@ -23,13 +23,7 @@ const Typewriter = ({ text = "", speed = 50 }) => {
   }, [inView, text, speed, i]);
 
   return (
-    <p
-      ref={ref}
-      className=""
-      //   style={{
-      //     animation: "cursor-text 1s cubic-bezier(0, 0, 1, 1) infinite",
-      //   }}
-    >
+    <p ref={ref} className="blinking-cursor">
       {content}
     </p>
   );

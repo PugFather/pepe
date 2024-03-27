@@ -21,10 +21,21 @@ const Header = () => {
         {/* Desktop Navlinks */}
         <div className="hidden items-center gap-16 text-xs lg:flex">
           <div className="[&>*:not(:first-child)]:ml-7">
-            <a className="cursor-pointer text-[#bada55]">home</a>
-            <a className="cursor-pointer hover:text-[#bada55]">about</a>
-            <a className="cursor-pointer hover:text-[#bada55]">tokenomics</a>
-            <a className="cursor-pointer hover:text-[#bada55]">roadmap</a>
+            <a href="/" className="cursor-pointer text-[#bada55]">
+              home
+            </a>
+            <a href="#about" className="cursor-pointer hover:text-[#bada55]">
+              about
+            </a>
+            <a
+              href="#tokenomics"
+              className="cursor-pointer hover:text-[#bada55]"
+            >
+              tokenomics
+            </a>
+            <a href="#roadmap" className="cursor-pointer hover:text-[#bada55]">
+              roadmap
+            </a>
           </div>
           <a className="cursor-pointer rounded-full border-2 px-7 py-4 hover:text-[#bada55] active:scale-95">
             buy now
@@ -38,11 +49,24 @@ const Header = () => {
         >
           <div className="mt-20 flex flex-col items-center gap-8">
             <a className="mt-4 cursor-pointer text-[#bada55]">home</a>
-            <a className="mt-4 cursor-pointer hover:text-[#bada55]">about</a>
-            <a className="mt-4 cursor-pointer hover:text-[#bada55]">
+            <a
+              href="#about"
+              className="mt-4 cursor-pointer hover:text-[#bada55]"
+            >
+              about
+            </a>
+            <a
+              href="#tokenomics"
+              className="mt-4 cursor-pointer hover:text-[#bada55]"
+            >
               tokenomics
             </a>
-            <a className="mt-4 cursor-pointer hover:text-[#bada55]">roadmap</a>
+            <a
+              href="#roadmap"
+              className="mt-4 cursor-pointer hover:text-[#bada55]"
+            >
+              roadmap
+            </a>
             <a className="mt-4 cursor-pointer rounded-full border-2 px-7 py-4 text-[#bada55]">
               buy now
             </a>

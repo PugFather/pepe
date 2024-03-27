@@ -9,7 +9,7 @@ const Tokenomics = () => {
   });
 
   return (
-    <section id="tokenomics" className="mb-20 mt-32" ref={ref}>
+    <section id="tokenomics" className="pb-20 pt-32" ref={ref}>
       <h2 className="text-shadow flex flex-col items-center px-4 font-evermore text-[30px] md:text-[3.5rem]">
         Tokenomics
       </h2>
